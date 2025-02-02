@@ -1,0 +1,15 @@
+{
+    "appId": "com.USTInnovation.simtra-ui",
+    "files": ["dist-electron", "dist-react"],
+    "icon": "application_icon.png",
+    "mac": {
+        "target": "dmg"
+    },
+    "linux": {
+        "target": "AppImage",
+        "category": "Utility"
+    },
+    "win": {
+        "target": ["portable", "msi"]
+    }
+}
